@@ -1,0 +1,4 @@
+# Creating-Optimsed-Portfolio-of-Stocks
+
+This report is designed to construct a big data alpha model for three stocks IBM, iROBOT and NETFLIX. For each stock we retrieve technical indicators and fundamental indicators from    2016-01-01 to 2019-09-01. After careful analysis of the indicators we create a factor model using all the indicators. The results of the panel regression indicate that the coefficient of RSI14 is the only significant indicators for the stocks.  To analyze the sentiments impact on the stock returns we extract various sentiments from the reddit and using regression analysis test the impact of the sentiments on stock price.
+For Portfolio analysis using R we create an optimum portfolio and to test the results we back test the returns based on the weights from the optimized portfolio. The results indicate that the optimum portfolio has better returns compared with equally weighted portfolio and S&P 500 index for the period of study.
